@@ -20,6 +20,11 @@ via `lazy`
   lazy = false,
   priority = 1000,
   config = function()
+    -- To edit the default config, call setup first
+    -- Example: disabling transparency
+    -- require("maginix").setup({
+    --   transparent = false,
+    -- })
     vim.cmd.colorscheme("maginix")
   end,
 }
