@@ -1,32 +1,32 @@
-local magi = require("maginix.melchior").get()
+local magi = require("maginix." .. MGX.opts.magi).get()
 local maginix = {}
 
 maginix.normal = {
-  a = { bg = magi.thesis, fg = magi.smosh },
-  b = { bg = magi.smoke, fg = magi.thesis },
-  c = { bg = magi.smosh, fg = magi.blonde },
+  a = { bg = magi.thesis, fg = magi.guf },
+  b = { bg = magi.core, fg = magi.thesis },
+  c = { bg = magi.guf, fg = magi.thesis },
 }
 maginix.inactive = {
-  c = { bg = magi.dogma, fg = magi.smoke },
+  c = { bg = magi.dogma, fg = magi.core },
 }
 maginix.insert = {
-  a = { bg = magi.smoke, fg = magi.blonde },
+  a = { bg = magi.core, fg = magi.thesis },
   b = { bg = magi.lcl, fg = magi.thesis },
 }
 maginix.visual = {
   a = { bg = magi.lcl, fg = magi.thesis },
-  b = { bg = magi.thesis, fg = magi.smosh },
+  b = { bg = magi.thesis, fg = magi.guf },
 }
 maginix.replace = {
-  a = { bg = magi.blonde, fg = magi.smosh },
-  b = { bg = magi.tiger, fg = magi.thesis },
+  a = { bg = magi.thesis, fg = magi.guf },
+  b = { bg = magi.longinus, fg = magi.thesis },
 }
 maginix.terminal = {
-  a = { bg = magi.duck, fg = magi.smosh },
-  b = { bg = magi.tiger, fg = magi.thesis },
+  a = { bg = magi.atfield, fg = magi.guf },
+  b = { bg = magi.longinus, fg = magi.thesis },
 }
 maginix.command = {
-  a = { bg = magi.ion, fg = magi.smosh },
-  b = { bg = magi.smoke, fg = magi.blonde },
+  a = { bg = magi.plug, fg = magi.guf },
+  b = { bg = magi.core, fg = magi.thesis },
 }
 return maginix

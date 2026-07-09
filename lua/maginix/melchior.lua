@@ -2,14 +2,13 @@ local MELCHIOR = {}
 ---@return table
 function MELCHIOR.get()
   return {
-    ["smosh"] = "#210e00",
-    ["smoke"] = "#404040",
+    ["guf"] = "#210e00",
+    ["core"] = "#404040",
     ["dogma"] = require("maginix").opts.transparent and "none" or "#210e00",
-    ["blonde"] = "#ffac51",
-    ["duck"] = "#ffd500",
+    ["atfield"] = "#ffd500",
     ["lcl"] = "#ce671c",
-    ["ion"] = "#f79b2e",
-    ["tiger"] = "#e6803c",
+    ["plug"] = "#f79b2e",
+    ["longinus"] = "#e6803c",
     ["thesis"] = "#ffac51",
     ["b"] = "bold",
     ["buc"] = "bold,undercurl",
